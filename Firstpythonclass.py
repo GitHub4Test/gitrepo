@@ -1,5 +1,5 @@
 
-class myfirstclass(object):
+class myfirstclass(object):baseless
     def add(self,a,b):
         return a+b;
     def subtract(self,a,b):
