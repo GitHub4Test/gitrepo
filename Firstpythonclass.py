@@ -1,5 +1,5 @@
 
-class myfirstclass(object):
+class Myfirstclass(object):
     def add(self,a,b):
         return a+b;
     def subtract(self,a,b):
@@ -10,7 +10,7 @@ class myfirstclass(object):
         return a/b
 
 def main():
-    myobj = myfirstclass()
+    myobj = Myfirstclass()
     c = myobj.add(4,5)
     d = myobj.subtract(6,7)
     e = myobj.multiply(8,9)
