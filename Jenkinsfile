@@ -22,14 +22,14 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                python *.pyc
+                sh 'python *.pyc'
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                mkdir Delivery
-                cp Firstpythonclass.pyc Delivery/
+                sh 'mkdir Delivery'
+                sh 'cp Firstpythonclass.pyc Delivery/'
             }
         }
     }
