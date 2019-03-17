@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Analysing the code..'
             }
-
+        }
         stage('Test') {
             steps {
                 echo 'Testing..'
