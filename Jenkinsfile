@@ -7,6 +7,11 @@ pipeline {
                 echo 'Building..'
             }
         }
+        stage('Code-Analysis') {
+            steps {
+                echo 'Analysing the code..'
+            }
+
         stage('Test') {
             steps {
                 echo 'Testing..'
