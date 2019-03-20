@@ -14,7 +14,7 @@ def main():
     c = myobj.add(4,5)
     d = myobj.subtract(6,7)
     e = myobj.multiply(8,9)
-    f = myobj.divide(150,5)
+    f = myobj.divide(200,5)
     print (c,d,e,f)
 
 if __name__ == '__main__':
